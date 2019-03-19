@@ -1,0 +1,115 @@
+.App {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  text-align: center; //color: white;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #cae7dc, #00a4c3);
+}
+
+.App h1 {
+  font-size: 3em; //color: white;
+  text-shadow: 3px 4px 6px gray;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.weather {
+  font-size: 3em;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-shadow: 3px 3px 6px gray;
+  cursor: pointer;
+}
+
+.powered {
+  color: black;
+  font-style: italic;
+  text-shadow: 1px 1px 4px gray;
+  cursor: pointer;
+}
+
+.smallLetters {
+  font-style: italic;
+  font-size: 0.75em;
+  display: table-cell;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: left;
+}
+
+.units {
+  font-size: 0.85em;
+  font-style: italic;
+}
+
+.App h2 {
+  font-size: 1em;
+  color: #ff7b25;
+}
+
+.CenterDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.WeatherData {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25em;
+}
+
+.Table {
+  display: table;
+}
+
+.Table .Row {
+  display: table-row;
+}
+
+.Table .Cell {
+  display: table-cell;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.Table .Cell1 {
+  display: table-cell;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 0.9em;
+  text-align: right;
+}
+
+.Table .Cell2 {
+  display: table-cell;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 0.85em;
+  text-align: right;
+}
+
+.Table .Cell3 {
+  display: table-cell;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 0.85em;
+  align-items: left;
+}
+
+.Clickable {
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: 900;
+}
+
+.menu {
+  cursor: pointer;
+}
